@@ -81,4 +81,4 @@ C:\Users\1\source\repos\CourseWork\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinFo
 C:\Users\1\source\repos\CourseWork\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\1\source\repos\CourseWork\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\1\source\repos\CourseWork\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\1\source\repos\CourseWork\obj\Debug\CourseWork.csproj.Up2Date
+C:\Users\1\source\repos\CourseWork\obj\Debug\CourseWork.csproj.CopyComplete
