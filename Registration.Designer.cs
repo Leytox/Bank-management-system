@@ -29,38 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registration));
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(123, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Реєстрація";
             // 
             // label2
             // 
@@ -79,24 +69,6 @@
             this.label3.Size = new System.Drawing.Size(45, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Пароль";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 230);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Email";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(41, 294);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Номер телефону";
             // 
             // label6
             // 
@@ -145,40 +117,6 @@
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 12;
             // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(227, 246);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 14;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(224, 230);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 13);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "По батькові";
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(44, 310);
-            this.maskedTextBox1.Mask = "+(38) 000-0000-000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 15;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(65, 358);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(167, 17);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "Я погоджуюсь з правилами";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(128, 391);
@@ -189,30 +127,25 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label9
+            // label1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(224, 294);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 13);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "ІПН (РНОКПП)";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(114, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Реєстрація";
             // 
-            // maskedTextBox3
+            // checkBox1
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(227, 310);
-            this.maskedTextBox3.Mask = "0000000000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox3.TabIndex = 20;
-            this.maskedTextBox3.ValidatingType = typeof(int);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(44, 246);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 3;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(65, 358);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(167, 17);
+            this.checkBox1.TabIndex = 16;
+            this.checkBox1.Text = "Я погоджуюсь з правилами";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // linkLabel1
             // 
@@ -235,6 +168,73 @@
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Зареєструвати адміністратора";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(224, 230);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(67, 13);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "По батькові";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(227, 246);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 14;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(224, 294);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(81, 13);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "ІПН (РНОКПП)";
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Location = new System.Drawing.Point(227, 310);
+            this.maskedTextBox3.Mask = "0000000000";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(100, 20);
+            this.maskedTextBox3.TabIndex = 20;
+            this.maskedTextBox3.ValidatingType = typeof(int);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(41, 294);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(92, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Номер телефону";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(44, 310);
+            this.maskedTextBox1.Mask = "+(38) 000-0000-000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.maskedTextBox1.TabIndex = 15;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(41, 230);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(32, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Email";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(44, 246);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 3;
             // 
             // Registration
             // 
@@ -271,32 +271,31 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Registration_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
-        private System.Windows.Forms.LinkLabel linkLabel2;
-
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
